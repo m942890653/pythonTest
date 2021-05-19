@@ -1,5 +1,5 @@
 # coding=utf-8
-import py_compile
+import os
 import random
 
 import sys
@@ -75,3 +75,9 @@ def test(list):
 list_test = []
 test(list_test)
 print(list_test)
+
+# 打印python版本
+print('Python %s on %s' % (sys.version, sys.platform))
+
+# 打开QQ
+os.system(r'"D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"')
